@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>留言板</title>
+    <meta charset="UTF-8">
+    <script src="script/kindeditor-all.js"></script>
+</head>
+<body>
+<div><h1>留言板</h1></div>
+<div>
+    <form action="insertdb.php" method="post">
+        标题:<input type="text" id="title" name="title"><br>
+        内容:<br>
+        <span>
+        <textarea name="content" rows="13" cols="80" id="content"></textarea>
+         </span>
+        <input type="submit" name="dosub" id="btn" value="上传留言">
+    </form>
+</div>
+</body>
+</html>
